@@ -1,0 +1,1202 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9300.17.0110.1430                                -->
+<workbook source-build='9.3.12 (9300.17.0110.1430)' source-platform='win' version='9.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Worksheet (SSA-SA-FYWL) Extract' inline='true' name='dataengine.0wv5h2s1v2pgcg11ud57o0awnros' version='9.3'>
+      <connection class='dataengine' dbname='C:\Users\cleanWindowsForTest\Desktop\4. Group data\Worksheet (SSA-SA-FYWL).tde' schema='Extract' tablename='Extract'>
+        <relation name='Extract' table='[Extract].[Extract]' type='table' />
+        <calculations>
+          <calculation column='[Number of Records]' formula='1' />
+        </calculations>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Adult Favorable  Determination Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Adult Favorable  Determination Rate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Adult Favorable  Determination Rate</remote-alias>
+            <ordinal>0</ordinal>
+            <family>Worksheet</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>671</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>27831.639999999992</statistic>
+              <statistic aggregation='Avg' datatype='real'>35.681589743589733</statistic>
+              <statistic aggregation='Min' datatype='real'>21.5</statistic>
+              <statistic aggregation='Max' datatype='real'>66.219999999999999</statistic>
+              <statistic aggregation='Stdev' datatype='real'>7.4252820236389141</statistic>
+              <statistic aggregation='StdevP' datatype='real'>7.4205207009155023</statistic>
+              <statistic aggregation='Var' datatype='real'>55.13481313057521</statistic>
+              <statistic aggregation='VarP' datatype='real'>55.064127472715498</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>1036027.1797999997</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Adult Receipts</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Adult Receipts]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Adult Receipts</remote-alias>
+            <ordinal>1</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>771</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>34048188.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>43651.523076923077</statistic>
+              <statistic aggregation='Min' datatype='integer'>2137</statistic>
+              <statistic aggregation='Max' datatype='integer'>249112</statistic>
+              <statistic aggregation='Stdev' datatype='real'>44941.751834936833</statistic>
+              <statistic aggregation='StdevP' datatype='real'>44912.933780139669</statistic>
+              <statistic aggregation='Var' datatype='real'>2019761057.9930482</statistic>
+              <statistic aggregation='VarP' datatype='real'>2017171620.7392111</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>3059649128386.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>All Adult Determinations</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[All Adult Determinations]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>All Adult Determinations</remote-alias>
+            <ordinal>2</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>773</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>33023686.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>42338.058974358974</statistic>
+              <statistic aggregation='Min' datatype='integer'>2202</statistic>
+              <statistic aggregation='Max' datatype='integer'>233656</statistic>
+              <statistic aggregation='Stdev' datatype='real'>43864.013611729853</statistic>
+              <statistic aggregation='StdevP' datatype='real'>43835.886636338924</statistic>
+              <statistic aggregation='Var' datatype='real'>1924051690.130022</statistic>
+              <statistic aggregation='VarP' datatype='real'>1921584957.1939578</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>2896995032030.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>All Determinations</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[All Determinations]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>All Determinations</remote-alias>
+            <ordinal>3</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>777</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>39255717.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>50327.842307692306</statistic>
+              <statistic aggregation='Min' datatype='integer'>2423</statistic>
+              <statistic aggregation='Max' datatype='integer'>269121</statistic>
+              <statistic aggregation='Stdev' datatype='real'>52505.218373620941</statistic>
+              <statistic aggregation='StdevP' datatype='real'>52471.550387873853</statistic>
+              <statistic aggregation='Var' datatype='real'>2756797956.4616222</statistic>
+              <statistic aggregation='VarP' datatype='real'>2753263600.1071844</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>4123201142935.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>All Favorable Determinations</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[All Favorable Determinations]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>All Favorable Determinations</remote-alias>
+            <ordinal>4</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>765</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>13868883.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>17780.619230769229</statistic>
+              <statistic aggregation='Min' datatype='integer'>894</statistic>
+              <statistic aggregation='Max' datatype='integer'>114527</statistic>
+              <statistic aggregation='Stdev' datatype='real'>19523.097515655434</statistic>
+              <statistic aggregation='StdevP' datatype='real'>19510.578695826538</statistic>
+              <statistic aggregation='Var' datatype='real'>381151336.60579145</statistic>
+              <statistic aggregation='VarP' datatype='real'>380662681.04604042</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>543514218995.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>All SSI Disabled Child Determinations</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[All SSI Disabled Child Determinations]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>All SSI Disabled Child Determinations</remote-alias>
+            <ordinal>5</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>743</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>6261326.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>8027.3410256410252</statistic>
+              <statistic aggregation='Min' datatype='integer'>0</statistic>
+              <statistic aggregation='Max' datatype='integer'>53604</statistic>
+              <statistic aggregation='Stdev' datatype='real'>9070.2187448084278</statistic>
+              <statistic aggregation='StdevP' datatype='real'>9064.4026372884055</statistic>
+              <statistic aggregation='Var' datatype='real'>82268868.078674167</statistic>
+              <statistic aggregation='VarP' datatype='real'>82163395.170881003</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>114349247308.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Date Type]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Date Type</remote-alias>
+            <ordinal>6</ordinal>
+            <family>Worksheet</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;FY&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;FY&quot;</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='Median' datatype='string'>&quot;FY&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;ru&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>7</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>15</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>1566240.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>2008.0</statistic>
+              <statistic aggregation='Min' datatype='integer'>2001</statistic>
+              <statistic aggregation='Max' datatype='integer'>2015</statistic>
+              <statistic aggregation='Stdev' datatype='real'>4.3232660121201514</statistic>
+              <statistic aggregation='StdevP' datatype='real'>4.3204937989385739</statistic>
+              <statistic aggregation='Var' datatype='real'>18.690629011553273</statistic>
+              <statistic aggregation='VarP' datatype='real'>18.666666666666668</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>3145024480.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>2</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint16&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eligible Adult Population Allowance Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Eligible Adult Population Allowance Rate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Eligible Adult Population Allowance Rate</remote-alias>
+            <ordinal>8</ordinal>
+            <family>Worksheet</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>67</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>337.08999999999997</statistic>
+              <statistic aggregation='Avg' datatype='real'>0.43216666666666664</statistic>
+              <statistic aggregation='Min' datatype='real'>0.16</statistic>
+              <statistic aggregation='Max' datatype='real'>1.78</statistic>
+              <statistic aggregation='Stdev' datatype='real'>0.13887424855087169</statistic>
+              <statistic aggregation='StdevP' datatype='real'>0.13878519804568992</statistic>
+              <statistic aggregation='Var' datatype='real'>0.019286056910569286</statistic>
+              <statistic aggregation='VarP' datatype='real'>0.019261331196581376</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>160.70290000000011</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eligible Adult Population Filing Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Eligible Adult Population Filing Rate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Eligible Adult Population Filing Rate</remote-alias>
+            <ordinal>9</ordinal>
+            <family>Worksheet</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>177</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>1012.3700000000001</statistic>
+              <statistic aggregation='Avg' datatype='real'>1.2979102564102565</statistic>
+              <statistic aggregation='Min' datatype='real'>0.55000000000000004</statistic>
+              <statistic aggregation='Max' datatype='real'>4.5</statistic>
+              <statistic aggregation='Stdev' datatype='real'>0.46519102280627539</statistic>
+              <statistic aggregation='StdevP' datatype='real'>0.46489272779464308</statistic>
+              <statistic aggregation='Var' datatype='real'>0.21640268769954862</statistic>
+              <statistic aggregation='VarP' datatype='real'>0.21612524835634409</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>1482.5431000000001</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eligible Adult Population</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Eligible Adult Population]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Eligible Adult Population</remote-alias>
+            <ordinal>10</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>728</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>2720945495.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>3488391.6602564105</statistic>
+              <statistic aggregation='Min' datatype='integer'>106337</statistic>
+              <statistic aggregation='Max' datatype='integer'>23468489</statistic>
+              <statistic aggregation='Stdev' datatype='real'>3957511.3381502819</statistic>
+              <statistic aggregation='StdevP' datatype='real'>3954973.6582880886</statistic>
+              <statistic aggregation='Var' datatype='real'>15661895991588.035</statistic>
+              <statistic aggregation='VarP' datatype='real'>15641816637752.666</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>21692340550217328.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eligible Child Population Allowance Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Eligible Child Population Allowance Rate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Eligible Child Population Allowance Rate</remote-alias>
+            <ordinal>11</ordinal>
+            <family>Worksheet</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>57</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>182.5800000000001</statistic>
+              <statistic aggregation='Avg' datatype='real'>0.23407692307692321</statistic>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>0.68000000000000005</statistic>
+              <statistic aggregation='Stdev' datatype='real'>0.10503153988442991</statistic>
+              <statistic aggregation='StdevP' datatype='real'>0.10496419038094511</statistic>
+              <statistic aggregation='Var' datatype='real'>0.01103162437049459</statistic>
+              <statistic aggregation='VarP' datatype='real'>0.011017481262327289</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>51.331399999999952</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>3</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eligible Child Population Filing Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Eligible Child Population Filing Rate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Eligible Child Population Filing Rate</remote-alias>
+            <ordinal>12</ordinal>
+            <family>Worksheet</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>132</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>438.02000000000044</statistic>
+              <statistic aggregation='Avg' datatype='real'>0.56156410256410316</statistic>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>1.7</statistic>
+              <statistic aggregation='Stdev' datatype='real'>0.31723915688878435</statistic>
+              <statistic aggregation='StdevP' datatype='real'>0.31703573323408119</statistic>
+              <statistic aggregation='Var' datatype='real'>0.10064068266350674</statistic>
+              <statistic aggregation='VarP' datatype='real'>0.10051165614727148</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>324.37540000000047</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Eligible Child Population</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Eligible Child Population]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Eligible Child Population</remote-alias>
+            <ordinal>13</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>716</approx-count>
+            <contains-null>true</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>1086360329.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>1396350.0372750643</statistic>
+              <statistic aggregation='Min' datatype='integer'>0</statistic>
+              <statistic aggregation='Max' datatype='integer'>9337164</statistic>
+              <statistic aggregation='Stdev' datatype='real'>1638251.8005175851</statistic>
+              <statistic aggregation='StdevP' datatype='real'>1637198.6009227012</statistic>
+              <statistic aggregation='Var' datatype='real'>2683868961899.1099</statistic>
+              <statistic aggregation='VarP' datatype='real'>2680419258863.25</statistic>
+              <statistic aggregation='Count' datatype='integer'>778</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>3602305469288909.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Favorable Adult Determinations</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Favorable Adult Determinations]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Favorable Adult Determinations</remote-alias>
+            <ordinal>14</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>765</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>11262416.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>14438.994871794872</statistic>
+              <statistic aggregation='Min' datatype='integer'>764</statistic>
+              <statistic aggregation='Max' datatype='integer'>97457</statistic>
+              <statistic aggregation='Stdev' datatype='real'>15709.529744907561</statistic>
+              <statistic aggregation='StdevP' datatype='real'>15699.456303830115</statistic>
+              <statistic aggregation='Var' datatype='real'>246789324.80613542</statistic>
+              <statistic aggregation='VarP' datatype='real'>246472928.23587114</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>354866850892.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Favorable Determination Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Favorable Determination Rate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Favorable Determination Rate</remote-alias>
+            <ordinal>15</ordinal>
+            <family>Worksheet</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>656</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>28905.189999999977</statistic>
+              <statistic aggregation='Avg' datatype='real'>37.057935897435868</statistic>
+              <statistic aggregation='Min' datatype='real'>22.98</statistic>
+              <statistic aggregation='Max' datatype='real'>66.069999999999993</statistic>
+              <statistic aggregation='Stdev' datatype='real'>7.2606165353517973</statistic>
+              <statistic aggregation='StdevP' datatype='real'>7.2559608012819403</statistic>
+              <statistic aggregation='Var' datatype='real'>52.716552473423938</statistic>
+              <statistic aggregation='VarP' datatype='real'>52.648967149740059</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>1112232.8725000008</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Favorable SSI Child (DC) Determinations</remote-name>
+            <remote-type>2</remote-type>
+            <local-name>[Favorable SSI Child (DC) Determinations]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Favorable SSI Child (DC) Determinations</remote-alias>
+            <ordinal>16</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>702</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>2610395.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>3346.6602564102564</statistic>
+              <statistic aggregation='Min' datatype='integer'>0</statistic>
+              <statistic aggregation='Max' datatype='integer'>23407</statistic>
+              <statistic aggregation='Stdev' datatype='real'>3980.6568243807483</statistic>
+              <statistic aggregation='StdevP' datatype='real'>3978.1043029099555</statistic>
+              <statistic aggregation='Var' datatype='real'>15845628.753489023</statistic>
+              <statistic aggregation='VarP' datatype='real'>15825313.844830703</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>21079849999.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint16&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>File Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[File Name]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>File Name</remote-alias>
+            <ordinal>17</ordinal>
+            <family>Worksheet</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;SSA-SA-FYWL.csv&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;SSA-SA-FYWL.csv&quot;</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='Median' datatype='string'>&quot;SSA-SA-FYWL.csv&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;ru&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>File Version</remote-name>
+            <remote-type>16</remote-type>
+            <local-name>[File Version]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>File Version</remote-alias>
+            <ordinal>18</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>1560.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>2.0</statistic>
+              <statistic aggregation='Min' datatype='integer'>2</statistic>
+              <statistic aggregation='Max' datatype='integer'>2</statistic>
+              <statistic aggregation='Stdev' datatype='real'>0.0</statistic>
+              <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+              <statistic aggregation='Var' datatype='real'>0.0</statistic>
+              <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='Median' datatype='integer'>2</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>3120.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Records</remote-name>
+            <remote-type>16</remote-type>
+            <local-name>[Number of Records]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Number of Records</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>780.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>1.0</statistic>
+              <statistic aggregation='Min' datatype='integer'>1</statistic>
+              <statistic aggregation='Max' datatype='integer'>1</statistic>
+              <statistic aggregation='Stdev' datatype='real'>0.0</statistic>
+              <statistic aggregation='StdevP' datatype='real'>0.0</statistic>
+              <statistic aggregation='Var' datatype='real'>0.0</statistic>
+              <statistic aggregation='VarP' datatype='real'>0.0</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='Median' datatype='integer'>1</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>780.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percent of Adult Population Receiving SSA Adult Disability Benefits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percent of Adult Population Receiving SSA Adult Disability Benefits]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Percent of Adult Population Receiving SSA Adult Disability Benefits</remote-alias>
+            <ordinal>20</ordinal>
+            <family>Worksheet</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>376</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>4622.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>5.9256410256410259</statistic>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>12.57</statistic>
+              <statistic aggregation='Stdev' datatype='real'>1.9533500992862241</statistic>
+              <statistic aggregation='StdevP' datatype='real'>1.9520975501998861</statistic>
+              <statistic aggregation='Var' datatype='real'>3.815576610381501</statistic>
+              <statistic aggregation='VarP' datatype='real'>3.8106848454963966</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>30360.647000000012</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percent of Population under age 18 Receiving SSI DC Benefits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percent of Population under age 18 Receiving SSI DC Benefits]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Percent of Population under age 18 Receiving SSI DC Benefits</remote-alias>
+            <ordinal>21</ordinal>
+            <family>Worksheet</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>225</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>1146.8499999999981</statistic>
+              <statistic aggregation='Avg' datatype='real'>1.4703205128205104</statistic>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>4.2199999999999998</statistic>
+              <statistic aggregation='Stdev' datatype='real'>0.75957526462746949</statistic>
+              <statistic aggregation='StdevP' datatype='real'>0.75908820124642906</statistic>
+              <statistic aggregation='Var' datatype='real'>0.57695458263389032</statistic>
+              <statistic aggregation='VarP' datatype='real'>0.57621489727153918</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>2135.6847000000002</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;array&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population age 18-64</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Population age 18-64]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Population age 18-64</remote-alias>
+            <ordinal>22</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>724</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>2895788911.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>3712549.8858974357</statistic>
+              <statistic aggregation='Min' datatype='integer'>308796</statistic>
+              <statistic aggregation='Max' datatype='integer'>24656301</statistic>
+              <statistic aggregation='Stdev' datatype='real'>4151387.2466718387</statistic>
+              <statistic aggregation='StdevP' datatype='real'>4148725.2475224012</statistic>
+              <statistic aggregation='Var' datatype='real'>17234016071829.59</statistic>
+              <statistic aggregation='VarP' datatype='real'>17211921179429.809</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>24176059311071364.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population under age 18</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Population under age 18]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Population under age 18</remote-alias>
+            <ordinal>23</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>714</approx-count>
+            <contains-null>true</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>1103445143.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>1418309.9524421594</statistic>
+              <statistic aggregation='Min' datatype='integer'>0</statistic>
+              <statistic aggregation='Max' datatype='integer'>9435682</statistic>
+              <statistic aggregation='Stdev' datatype='real'>1662171.9485360177</statistic>
+              <statistic aggregation='StdevP' datatype='real'>1661103.3711523258</statistic>
+              <statistic aggregation='Var' datatype='real'>2762815586500.022</statistic>
+              <statistic aggregation='VarP' datatype='real'>2759264409653.6211</statistic>
+              <statistic aggregation='Count' datatype='integer'>778</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>3711734939001379.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region Code]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Region Code</remote-alias>
+            <ordinal>24</ordinal>
+            <family>Worksheet</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>10</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;ATL&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;SFO&quot;</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='Median' datatype='string'>&quot;DEN&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;ru&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>0</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSA Disabilty Beneficiaries  age 18-64</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[SSA Disabilty Beneficiaries  age 18-64]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>SSA Disabilty Beneficiaries  age 18-64</remote-alias>
+            <ordinal>25</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>728</approx-count>
+            <contains-null>true</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>165706709.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>212990.62853470436</statistic>
+              <statistic aggregation='Min' datatype='integer'>186</statistic>
+              <statistic aggregation='Max' datatype='integer'>1191554</statistic>
+              <statistic aggregation='Stdev' datatype='real'>215693.65800148441</statistic>
+              <statistic aggregation='StdevP' datatype='real'>215554.99282610998</statistic>
+              <statistic aggregation='Var' datatype='real'>46523754102.061317</statistic>
+              <statistic aggregation='VarP' datatype='real'>46463954932.264328</statistic>
+              <statistic aggregation='Count' datatype='integer'>778</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>71442933039629.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSI Disabled Child (DC) Beneficiaries</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[SSI Disabled Child (DC) Beneficiaries]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>SSI Disabled Child (DC) Beneficiaries</remote-alias>
+            <ordinal>26</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>708</approx-count>
+            <contains-null>true</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>16824684.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>21625.557840616966</statistic>
+              <statistic aggregation='Min' datatype='integer'>0</statistic>
+              <statistic aggregation='Max' datatype='integer'>147086</statistic>
+              <statistic aggregation='Stdev' datatype='real'>25912.017274328391</statistic>
+              <statistic aggregation='StdevP' datatype='real'>25895.358952275987</statistic>
+              <statistic aggregation='Var' datatype='real'>671432639.22509289</statistic>
+              <statistic aggregation='VarP' datatype='real'>670569615.26722002</statistic>
+              <statistic aggregation='Count' datatype='integer'>778</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>885546337670.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSI Disabled Child (DC) Receipts</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[SSI Disabled Child (DC) Receipts]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>SSI Disabled Child (DC) Receipts</remote-alias>
+            <ordinal>27</ordinal>
+            <family>Worksheet</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>738</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>6362330.0</statistic>
+              <statistic aggregation='Avg' datatype='real'>8156.833333333333</statistic>
+              <statistic aggregation='Min' datatype='integer'>0</statistic>
+              <statistic aggregation='Max' datatype='integer'>52263</statistic>
+              <statistic aggregation='Stdev' datatype='real'>9189.8827862812468</statistic>
+              <statistic aggregation='StdevP' datatype='real'>9183.9899464407499</statistic>
+              <statistic aggregation='Var' datatype='real'>84453945.625588357</statistic>
+              <statistic aggregation='VarP' datatype='real'>84345671.336324781</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>117686089064.0</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint32&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SSI Disabled Child Allowance Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SSI Disabled Child Allowance Rate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>SSI Disabled Child Allowance Rate</remote-alias>
+            <ordinal>28</ordinal>
+            <family>Worksheet</family>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>650</approx-count>
+            <contains-null>false</contains-null>
+            <statistics>
+              <statistic aggregation='Sum' datatype='real'>35481.039999999943</statistic>
+              <statistic aggregation='Avg' datatype='real'>45.488512820512746</statistic>
+              <statistic aggregation='Min' datatype='real'>0.0</statistic>
+              <statistic aggregation='Max' datatype='real'>79.459999999999994</statistic>
+              <statistic aggregation='Stdev' datatype='real'>12.265894557160907</statistic>
+              <statistic aggregation='StdevP' datatype='real'>12.258029282509781</statistic>
+              <statistic aggregation='Var' datatype='real'>150.45216928738955</statistic>
+              <statistic aggregation='VarP' datatype='real'>150.25928189086727</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='SumXSqr' datatype='real'>1731181.9827999996</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State Code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State Code]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>State Code</remote-alias>
+            <ordinal>29</ordinal>
+            <family>Worksheet</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>52</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;AK&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;WY&quot;</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;ru&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (sort-position)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (sort-sense)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>2</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Update Date</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Update Date]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Update Date</remote-alias>
+            <ordinal>30</ordinal>
+            <family>Worksheet</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LRU_RRU' />
+            <statistics>
+              <statistic aggregation='Min' datatype='string'>&quot;11/10/2015&quot;</statistic>
+              <statistic aggregation='Max' datatype='string'>&quot;11/10/2015&quot;</statistic>
+              <statistic aggregation='Count' datatype='integer'>780</statistic>
+              <statistic aggregation='Median' datatype='string'>&quot;11/10/2015&quot;</statistic>
+            </statistics>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;ru&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (comparable)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='boolean' name='DebugRemoteMetadata (distinct)'>true</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (ordered)'>&quot;asc&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>1</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[State Code (group)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='categorical-bin' column='[State Code]'>
+          <bin value='&quot;AL&quot;'>
+            <value>&quot;AL&quot;</value>
+            <value>&quot;AZ&quot;</value>
+            <value>&quot;CT&quot;</value>
+            <value>&quot;FL&quot;</value>
+            <value>&quot;GA&quot;</value>
+          </bin>
+          <bin value='&quot;LA&quot;'>
+            <value>&quot;LA&quot;</value>
+            <value>&quot;MN&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[State Code]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <drill-paths>
+        <drill-path name='State Code, State Code (group)'>
+          <field>[State Code]</field>
+          <field>[State Code (group)]</field>
+        </drill-path>
+      </drill-paths>
+      <layout dim-ordering='alphabetic' dim-percentage='0.266145' measure-ordering='alphabetic' measure-percentage='0.733855' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Russia&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worksheet (SSA-SA-FYWL) Extract' name='dataengine.0wv5h2s1v2pgcg11ud57o0awnros' />
+          </datasources>
+          <datasource-dependencies datasource='dataengine.0wv5h2s1v2pgcg11ud57o0awnros'>
+            <column datatype='integer' name='[Population age 18-64]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State Code (group)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <calculation class='categorical-bin' column='[State Code]'>
+                <bin value='&quot;AL&quot;'>
+                  <value>&quot;AL&quot;</value>
+                  <value>&quot;AZ&quot;</value>
+                  <value>&quot;CT&quot;</value>
+                  <value>&quot;FL&quot;</value>
+                  <value>&quot;GA&quot;</value>
+                </bin>
+                <bin value='&quot;LA&quot;'>
+                  <value>&quot;LA&quot;</value>
+                  <value>&quot;MN&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[State Code]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Population age 18-64]' derivation='Sum' name='[sum:Population age 18-64:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[dataengine.0wv5h2s1v2pgcg11ud57o0awnros].[State Code (group)]</rows>
+        <cols>[dataengine.0wv5h2s1v2pgcg11ud57o0awnros].[sum:Population age 18-64:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='28'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[dataengine.0wv5h2s1v2pgcg11ud57o0awnros].[State Code (group)]</field>
+            <field>[dataengine.0wv5h2s1v2pgcg11ud57o0awnros].[none:State Code:nk]</field>
+            <field>[dataengine.0wv5h2s1v2pgcg11ud57o0awnros].[none:Update Date:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
