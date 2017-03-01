@@ -1,0 +1,1860 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9300.17.0110.1430                                -->
+<workbook source-build='9.3.12 (9300.17.0110.1430)' source-platform='win' version='9.3' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='SSA-SA-MOWL.xls (SSA-SA-MOWL - solution2)' inline='true' name='excel-direct.0wmkd2o190hipz18y0u3p11r219l' version='9.3'>
+      <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:\Users\Lati\Downloads\Lab 11\SSA-SA-MOWL - solution.xls' interpretationMode='0' password='' server='' validate='no'>
+        <relation name='SSA-SA-MOWL.xls' table='[&apos;SSA-SA-MOWL#xls$&apos;]' type='table'>
+          <columns gridOrigin='A1:CA10668:no:A1:CA10668:0' header='yes' outcome='2'>
+            <column datatype='string' name='File Name' ordinal='0' />
+            <column datatype='integer' name='File Version' ordinal='1' />
+            <column datatype='date' name='Update Date' ordinal='2' />
+            <column datatype='string' name='Region  Code' ordinal='3' />
+            <column datatype='string' name='State  Code' ordinal='4' />
+            <column datatype='string' name='Date Type' ordinal='5' />
+            <column datatype='date' name='Date' ordinal='6' />
+            <column datatype='string' name='Formatted  Date' ordinal='7' />
+            <column datatype='integer' name='Receipts  (All Initial)' ordinal='8' />
+            <column datatype='integer' name='Closing Pending  (All Initial)' ordinal='9' />
+            <column datatype='integer' name='Determinations  (All Initial)' ordinal='10' />
+            <column datatype='integer' name='Allowances  (All Initial)' ordinal='11' />
+            <column datatype='real' name='Allowance Rate  (All Initial)' ordinal='12' />
+            <column datatype='integer' name='Receipts  (Initial SSDI Only)' ordinal='13' />
+            <column datatype='integer' name='Closing Pending  (Initial SSDI Only)' ordinal='14' />
+            <column datatype='integer' name='Determinations  (Initial SSDI Only)' ordinal='15' />
+            <column datatype='integer' name='Allowances  (Initial SSDI Only)' ordinal='16' />
+            <column datatype='real' name='Allowance Rate  (Initial SSDI Only)' ordinal='17' />
+            <column datatype='integer' name='Receipts  (Initial SSI Only)' ordinal='18' />
+            <column datatype='integer' name='Closing Pending  (Initial SSI Only)' ordinal='19' />
+            <column datatype='integer' name='Determinations  (Initial SSI Only)' ordinal='20' />
+            <column datatype='integer' name='Allowances  (Initial SSI Only)' ordinal='21' />
+            <column datatype='real' name='Allowance Rate  (Initial SSI Only)' ordinal='22' />
+            <column datatype='integer' name='Receipts  (Initial Concurrent Only)' ordinal='23' />
+            <column datatype='integer' name='Closing Pending  (Initial Concurrent Only)' ordinal='24' />
+            <column datatype='integer' name='Determinations  (Initial Concurrent Only)' ordinal='25' />
+            <column datatype='integer' name='Allowances  (Initial Concurrent Only)' ordinal='26' />
+            <column datatype='real' name='Allowance Rate  (Initial Concurrent Only)' ordinal='27' />
+            <column datatype='integer' name='Receipts  (Initial SSI DC Only)' ordinal='28' />
+            <column datatype='integer' name='Closing Pending  (Initial SSI DC Only)' ordinal='29' />
+            <column datatype='integer' name='Determinations  (Initial SSI DC Only)' ordinal='30' />
+            <column datatype='integer' name='Allowances  (Initial SSI DC Only)' ordinal='31' />
+            <column datatype='real' name='Allowance Rate  (Initial SSI DC Only)' ordinal='32' />
+            <column datatype='string' name='Prototype  State' ordinal='33' />
+            <column datatype='integer' name='Receipts  (All Recon)' ordinal='34' />
+            <column datatype='integer' name='Closing Pending  (All Recon)' ordinal='35' />
+            <column datatype='integer' name='Determinations  (All Recon)' ordinal='36' />
+            <column datatype='integer' name='Allowances  (All Recon)' ordinal='37' />
+            <column datatype='real' name='Allowance Rate  (All Recon)' ordinal='38' />
+            <column datatype='integer' name='Receipts  (Recon SSDI Only)' ordinal='39' />
+            <column datatype='integer' name='Closing Pending  (Recon SSDI Only)' ordinal='40' />
+            <column datatype='integer' name='Determinations  (Recon SSDI Only)' ordinal='41' />
+            <column datatype='integer' name='Allowances  (Recon SSDI Only)' ordinal='42' />
+            <column datatype='real' name='Allowance Rate  (Recon SSDI Only)' ordinal='43' />
+            <column datatype='integer' name='Receipts  (Recon SSI Only)' ordinal='44' />
+            <column datatype='integer' name='Closing Pending  (Recon SSI Only)' ordinal='45' />
+            <column datatype='integer' name='Determinations  (Recon SSI Only)' ordinal='46' />
+            <column datatype='integer' name='Allowances  (Recon SSI Only)' ordinal='47' />
+            <column datatype='real' name='Allowance Rate  (Recon SSI Only)' ordinal='48' />
+            <column datatype='integer' name='Receipts  (Recon Concurrent Only)' ordinal='49' />
+            <column datatype='integer' name='Closing Pending  (Recon Concurrent Only)' ordinal='50' />
+            <column datatype='integer' name='Determinations  (Recon Concurrent Only)' ordinal='51' />
+            <column datatype='integer' name='Allowances  (Recon Concurrent Only)' ordinal='52' />
+            <column datatype='real' name='Allowance Rate  (Recon Concurrent Only)' ordinal='53' />
+            <column datatype='integer' name='Receipts  (Recon SSI DC Only)' ordinal='54' />
+            <column datatype='integer' name='Closing Pending  (Recon SSI DC Only)' ordinal='55' />
+            <column datatype='integer' name='Determinations  (Recon SSI DC Only)' ordinal='56' />
+            <column datatype='integer' name='Allowances  (Recon SSI DC Only)' ordinal='57' />
+            <column datatype='real' name='Allowance Rate  (Recon SSI DC Only)' ordinal='58' />
+            <column datatype='integer' name='Receipts  (All CDR)' ordinal='59' />
+            <column datatype='integer' name='Closing Pending  (All CDR)' ordinal='60' />
+            <column datatype='integer' name='Determinations  (All CDR)' ordinal='61' />
+            <column datatype='integer' name='Continuations  (All CDR)' ordinal='62' />
+            <column datatype='real' name='Continuation Rate  (All CDR)' ordinal='63' />
+            <column datatype='integer' name='Receipts  (CDR SSDI Only)' ordinal='64' />
+            <column datatype='integer' name='Closing Pending  (CDR SSDI Only)' ordinal='65' />
+            <column datatype='integer' name='Determinations  (CDR SSDI Only)' ordinal='66' />
+            <column datatype='integer' name='Continuations  (CDR SSDI Only)' ordinal='67' />
+            <column datatype='real' name='Continuation Rate  (CDR SSDI Only)' ordinal='68' />
+            <column datatype='integer' name='Receipts  (CDR SSI Only)' ordinal='69' />
+            <column datatype='integer' name='Closing Pending  (CDR SSI Only)' ordinal='70' />
+            <column datatype='integer' name='Determinations  (CDR SSI Only)' ordinal='71' />
+            <column datatype='integer' name='Continuations  (CDR SSI Only)' ordinal='72' />
+            <column datatype='real' name='Continuation Rate  (CDR SSI Only)' ordinal='73' />
+            <column datatype='integer' name='Receipts  (CDR Concurrent Only)' ordinal='74' />
+            <column datatype='integer' name='Closing Pending  (CDR Concurrent Only)' ordinal='75' />
+            <column datatype='integer' name='Determinations  (CDR Concurrent Only)' ordinal='76' />
+            <column datatype='integer' name='Continuations  (CDR Concurrent Only)' ordinal='77' />
+            <column datatype='real' name='Continuation Rate  (CDR Concurrent Only)' ordinal='78' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>File Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[File Name]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>File Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>File Version</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[File Version]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>File Version</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Update Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Update Date]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Update Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region  Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region  Code]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Region  Code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State  Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State  Code]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>State  Code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date Type]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Date Type</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Formatted  Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Formatted  Date]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Formatted  Date</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (All Initial)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (All Initial)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (All Initial)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (All Initial)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (All Initial)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (All Initial)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (All Initial)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (All Initial)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (All Initial)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (All Initial)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (All Initial)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (All Initial)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (All Initial)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (All Initial)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (All Initial)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (Initial SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (Initial SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (Initial SSDI Only)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (Initial SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (Initial SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (Initial SSDI Only)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (Initial SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (Initial SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (Initial SSDI Only)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (Initial SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (Initial SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (Initial SSDI Only)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (Initial SSDI Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (Initial SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (Initial SSDI Only)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (Initial SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (Initial SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (Initial SSI Only)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (Initial SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (Initial SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (Initial SSI Only)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (Initial SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (Initial SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (Initial SSI Only)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (Initial SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (Initial SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (Initial SSI Only)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (Initial SSI Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (Initial SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (Initial SSI Only)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (Initial Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (Initial Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (Initial Concurrent Only)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (Initial Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (Initial Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (Initial Concurrent Only)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (Initial Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (Initial Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (Initial Concurrent Only)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (Initial Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (Initial Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (Initial Concurrent Only)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (Initial Concurrent Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (Initial Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (Initial Concurrent Only)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (Initial SSI DC Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (Initial SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (Initial SSI DC Only)</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (Initial SSI DC Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (Initial SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (Initial SSI DC Only)</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (Initial SSI DC Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (Initial SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (Initial SSI DC Only)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (Initial SSI DC Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (Initial SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (Initial SSI DC Only)</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (Initial SSI DC Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (Initial SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (Initial SSI DC Only)</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Prototype  State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Prototype  State]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Prototype  State</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (All Recon)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (All Recon)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (All Recon)</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (All Recon)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (All Recon)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (All Recon)</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (All Recon)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (All Recon)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (All Recon)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (All Recon)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (All Recon)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (All Recon)</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (All Recon)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (All Recon)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (All Recon)</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (Recon SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (Recon SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (Recon SSDI Only)</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (Recon SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (Recon SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (Recon SSDI Only)</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (Recon SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (Recon SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (Recon SSDI Only)</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (Recon SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (Recon SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (Recon SSDI Only)</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (Recon SSDI Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (Recon SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (Recon SSDI Only)</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (Recon SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (Recon SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (Recon SSI Only)</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (Recon SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (Recon SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (Recon SSI Only)</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (Recon SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (Recon SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (Recon SSI Only)</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (Recon SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (Recon SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (Recon SSI Only)</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (Recon SSI Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (Recon SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (Recon SSI Only)</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (Recon Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (Recon Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (Recon Concurrent Only)</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (Recon Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (Recon Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (Recon Concurrent Only)</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (Recon Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (Recon Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (Recon Concurrent Only)</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (Recon Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (Recon Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (Recon Concurrent Only)</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (Recon Concurrent Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (Recon Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (Recon Concurrent Only)</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (Recon SSI DC Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (Recon SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (Recon SSI DC Only)</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (Recon SSI DC Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (Recon SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (Recon SSI DC Only)</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (Recon SSI DC Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (Recon SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (Recon SSI DC Only)</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowances  (Recon SSI DC Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Allowances  (Recon SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowances  (Recon SSI DC Only)</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Allowance Rate  (Recon SSI DC Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Allowance Rate  (Recon SSI DC Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Allowance Rate  (Recon SSI DC Only)</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (All CDR)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (All CDR)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (All CDR)</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (All CDR)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (All CDR)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (All CDR)</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (All CDR)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (All CDR)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (All CDR)</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continuations  (All CDR)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Continuations  (All CDR)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Continuations  (All CDR)</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continuation Rate  (All CDR)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Continuation Rate  (All CDR)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Continuation Rate  (All CDR)</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (CDR SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (CDR SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (CDR SSDI Only)</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (CDR SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (CDR SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (CDR SSDI Only)</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (CDR SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (CDR SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (CDR SSDI Only)</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continuations  (CDR SSDI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Continuations  (CDR SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Continuations  (CDR SSDI Only)</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continuation Rate  (CDR SSDI Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Continuation Rate  (CDR SSDI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Continuation Rate  (CDR SSDI Only)</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (CDR SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (CDR SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (CDR SSI Only)</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (CDR SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (CDR SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (CDR SSI Only)</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (CDR SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (CDR SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (CDR SSI Only)</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continuations  (CDR SSI Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Continuations  (CDR SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Continuations  (CDR SSI Only)</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continuation Rate  (CDR SSI Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Continuation Rate  (CDR SSI Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Continuation Rate  (CDR SSI Only)</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Receipts  (CDR Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Receipts  (CDR Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Receipts  (CDR Concurrent Only)</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Closing Pending  (CDR Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Closing Pending  (CDR Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Closing Pending  (CDR Concurrent Only)</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Determinations  (CDR Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Determinations  (CDR Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Determinations  (CDR Concurrent Only)</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continuations  (CDR Concurrent Only)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Continuations  (CDR Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Continuations  (CDR Concurrent Only)</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Continuation Rate  (CDR Concurrent Only)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Continuation Rate  (CDR Concurrent Only)]</local-name>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias>Continuation Rate  (CDR Concurrent Only)</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SSA-SA-MOWL.xls]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:CA10668:no:A1:CA10668:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Prototype  State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='string' name='[State  Code]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.282288' measure-ordering='alphabetic' measure-percentage='0.717712' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ukraine&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Practice 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SSA-SA-MOWL.xls (SSA-SA-MOWL - solution2)' name='excel-direct.0wmkd2o190hipz18y0u3p11r219l' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.0wmkd2o190hipz18y0u3p11r219l'>
+            <column datatype='integer' name='[Allowances  (All Initial)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Region  Code]' role='dimension' type='nominal' />
+            <column datatype='string' name='[State  Code]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Allowances  (All Initial)]' derivation='Sum' name='[cum:sum:Allowances  (All Initial):qk:6]' pivot='key' type='quantitative'>
+              <table-calc aggregation='Sum' ordering-type='ColumnInPane' type='CumTotal' />
+            </column-instance>
+            <column-instance column='[Region  Code]' derivation='None' name='[none:Region  Code:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State  Code]' derivation='None' name='[none:State  Code:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Date]' derivation='Quarter' name='[qr:Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Allowances  (All Initial)]' derivation='Sum' name='[sum:Allowances  (All Initial):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[sum:Allowances  (All Initial):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[cum:sum:Allowances  (All Initial):qk:6]&quot;' />
+            </groupfilter>
+          </filter>
+          <sort class='manual' column='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[sum:Allowances  (All Initial):qk]&quot;</bucket>
+              <bucket>&quot;[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[cum:sum:Allowances  (All Initial):qk:6]&quot;</bucket>
+            </dictionary>
+          </sort>
+          <slices>
+            <column>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([excel-direct.0wmkd2o190hipz18y0u3p11r219l].[none:Region  Code:nk] / ([excel-direct.0wmkd2o190hipz18y0u3p11r219l].[none:State  Code:nk] / [excel-direct.0wmkd2o190hipz18y0u3p11r219l].[qr:Date:ok]))</rows>
+        <cols>([excel-direct.0wmkd2o190hipz18y0u3p11r219l].[yr:Date:ok] / [excel-direct.0wmkd2o190hipz18y0u3p11r219l].[:Measure Names])</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Practice 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SSA-SA-MOWL.xls (SSA-SA-MOWL - solution2)' name='excel-direct.0wmkd2o190hipz18y0u3p11r219l' />
+          </datasources>
+          <datasource-dependencies datasource='excel-direct.0wmkd2o190hipz18y0u3p11r219l'>
+            <column datatype='integer' name='[Allowances  (All Initial)]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[State  Code]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[State  Code]' derivation='None' name='[none:State  Code:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Allowances  (All Initial)]' derivation='Sum' name='[pcdf:sum:Allowances  (All Initial):qk]' pivot='key' type='quantitative'>
+              <table-calc diff-options='Relative' level-address='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[yr:Date:ok]' ordering-field='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[Date]' ordering-type='Field' type='PctDiff'>
+                <address>
+                  <value>-1</value>
+                </address>
+              </table-calc>
+            </column-instance>
+            <column-instance column='[Allowances  (All Initial)]' derivation='Sum' name='[sum:Allowances  (All Initial):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Year' name='[yr:Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[none:State  Code:nk]'>
+            <groupfilter function='member' level='[none:State  Code:nk]' member='&quot;CO&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[none:State  Code:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[yr:Date:ok]' value='34' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[pcdf:sum:Allowances  (All Initial):qk]' value='false' />
+            <format attr='break-on-special' field='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[pcdf:sum:Allowances  (All Initial):qk]' value='false' />
+            <format attr='show-null-value-warning' field='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[pcdf:sum:Allowances  (All Initial):qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[pcdf:sum:Allowances  (All Initial):qk]' />
+              <text column='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[sum:Allowances  (All Initial):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[pcdf:sum:Allowances  (All Initial):qk]</rows>
+        <cols>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[yr:Date:ok]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows source-height='28'>
+    <window class='worksheet' name='Practice 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[:Measure Names]</field>
+            <field>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[none:Region  Code:nk]</field>
+            <field>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[none:State  Code:nk]</field>
+            <field>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[qr:Date:ok]</field>
+            <field>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[yr:Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+    <window class='worksheet' maximized='true' name='Practice 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='2' param='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[pcdf:sum:Allowances  (All Initial):qk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='radiolist' param='[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[none:State  Code:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[none:State  Code:nk]</field>
+            <field>[excel-direct.0wmkd2o190hipz18y0u3p11r219l].[yr:Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Practice 1' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Practice 2' width='192'>
+      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
+      LOxubMGIkf8PdgLU7F7hxxcAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
